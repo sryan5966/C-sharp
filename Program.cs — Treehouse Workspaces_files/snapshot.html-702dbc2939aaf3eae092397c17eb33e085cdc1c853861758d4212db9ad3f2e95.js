@@ -1,0 +1,4 @@
+define(function() {
+  return "<div class='snapshot-item'> <a href='{{short_url}}' target='_blank' class='snapshot-item-anchor'> <span class='snapshot-item-url'>{{short_url}}</span> <span class='snapshot-item-time'>{{time_ago}}</span> </a> <a class='snapshot-item-delete'> <span class='snapshot-delete-label'>Delete</span> <span class='th-icon-snapshot-delete'></span> </a> <div class='snapshot-delete'> <a data-snapshot-id='{{id}}' class='snapshot-delete-confirm'>Delete Snapshot</a> <a class='snapshot-delete-cancel'>Cancel</a> </div> <div class='snapshot-delete-active'><span class='icon-loading'></span><p>Deleting Snapshot...</p></div></div>";
+});
+//# sourceMappingURL=/assets/maps/workspaces/extensions/snapshot_workspace/html/partials/snapshot.html-062d54100ea9c47591e837ccfc2035583863a7674c432a9da757660334214a41.js.map
