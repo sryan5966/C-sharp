@@ -23,6 +23,24 @@ namespace Treehouse.FitnessFrog
                 {
                     // Add minutes exercised to total 
                     int minutes = int.Parse(entry);
+                  
+                  if(minutes <= 10)
+                  {
+                    Console.WriteLine("better than nothing, am i right");
+                  }
+                  
+                  else if(minutes <= 30){
+                  Console.WriteLine("way to go hot stuff");
+                  }
+                  
+                   else if(minutes <= 60){
+                  Console.WriteLine("you must be a ninja!!");
+                  }
+                  else
+                  {
+                  Console.WriteLine("ok now your just showing off!");
+                  }
+                  
                     runningTotal = runningTotal + minutes;
 
                     // Display total minutes exercised to the screen 
